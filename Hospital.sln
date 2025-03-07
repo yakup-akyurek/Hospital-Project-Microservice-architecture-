@@ -7,7 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patient", "Patient", "{BFB9CEAF-03D9-49FE-8372-8590AF5073F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Patient", "Services\Patient\Hospital.Patient\Hospital.Patient.csproj", "{C846210C-9970-4C7A-94ED-804924A0F4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Patient", "Services\Patient\Hospital.Patient\Hospital.Patient.csproj", "{C846210C-9970-4C7A-94ED-804924A0F4F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee", "Employee", "{F07CE0B5-C239-468C-A4E1-E9B9D3144C95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Employee", "Services\Employee\Hospital.Employee\Hospital.Employee.csproj", "{2D782C8B-7E66-4D91-89F9-88AD042FD006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prescription", "Prescription", "{60120AD0-B52B-47BC-91B0-F4D8F7A69E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Prescription", "Services\Prescription\Hospital.Prescription\Hospital.Prescription.csproj", "{4240C041-CA2F-44EF-A001-2D0F2020FE6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +27,14 @@ Global
 		{C846210C-9970-4C7A-94ED-804924A0F4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C846210C-9970-4C7A-94ED-804924A0F4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C846210C-9970-4C7A-94ED-804924A0F4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D782C8B-7E66-4D91-89F9-88AD042FD006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D782C8B-7E66-4D91-89F9-88AD042FD006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D782C8B-7E66-4D91-89F9-88AD042FD006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D782C8B-7E66-4D91-89F9-88AD042FD006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4240C041-CA2F-44EF-A001-2D0F2020FE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4240C041-CA2F-44EF-A001-2D0F2020FE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4240C041-CA2F-44EF-A001-2D0F2020FE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4240C041-CA2F-44EF-A001-2D0F2020FE6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BFB9CEAF-03D9-49FE-8372-8590AF5073F4} = {A8D66E61-AADB-44ED-83D8-30658A1AD9C1}
 		{C846210C-9970-4C7A-94ED-804924A0F4F3} = {BFB9CEAF-03D9-49FE-8372-8590AF5073F4}
+		{2D782C8B-7E66-4D91-89F9-88AD042FD006} = {F07CE0B5-C239-468C-A4E1-E9B9D3144C95}
+		{4240C041-CA2F-44EF-A001-2D0F2020FE6A} = {60120AD0-B52B-47BC-91B0-F4D8F7A69E26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90CBE789-D216-4F1B-93BF-796AE701A581}
